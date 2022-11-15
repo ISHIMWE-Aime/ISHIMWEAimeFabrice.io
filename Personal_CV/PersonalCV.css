@@ -1,0 +1,166 @@
+#index_body{
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #D9D9D9;
+}
+
+h1, h2{
+    text-align: center;
+}
+
+.Personal_arrangement{
+    display: flex;
+    flex-direction: row;
+}
+.prefix{
+    padding-right: 10px;
+    font-weight: bold;
+}
+
+/*table styles*/
+
+table, td{
+    width: 100vw;
+    border: solid 1px;
+    border-collapse: collapse;
+    width: auto;
+}
+.table_tittles{
+    width: 20vw;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px;
+}
+.table_content{
+    padding: 5px;
+}
+.options{
+    height: 100%;
+    width: 100%;
+}
+.option_content{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+}
+
+/*home page*/
+/*#index_body{
+    position: absolute;
+    top: 10vh;
+    left: 25vw;
+}*/
+#Table_of_content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    
+}
+
+#imgAndTittle{
+    background-color: D9D9D9;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    height: 70%;
+}
+img:hover{
+    transform: scale(1.1);
+    border-radius: 20px;
+}
+#Titlle__content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 50%
+}
+.homePage{
+    background-color: 235456;
+    width: 100vw;
+    height: auto;
+}
+
+.home_links{
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+.home_links:hover{
+    color: greenyellow;
+    transform: scale(1.1);
+}
+
+#Full_content{
+    position: relative;
+    right: 20px;
+    bottom: 20px;
+    font-weight: bold;
+    font-size: 28px;
+    height: 63px;
+    width: 203px;
+    border-radius: 10px;
+    background-color: #D9D9D9;
+    border: 0px solid;
+}
+#Full_content:hover{
+    color: #D9D9D9;
+    background-color: green;
+    transform: scale(1.1);
+}
+
+/*Spoken Language table*/
+#grid_table{
+    display: grid;
+    grid-template-areas: 
+        "category"
+        "category";
+    grid-template-columns: 10% 22.5% 22.5% 22.5% 22.5%;
+    border: 1px solid;
+    border-collapse: collapse;
+}
+.table_option_cells{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    word-wrap: break-word; 
+    border: 1px solid;
+}
+.table_cell_content{
+    word-wrap: break-word; 
+    width: 100%;
+    text-align: center;
+}
+.table_cells{
+    border: 1px solid;
+}
+/*
+.table_cell_option{
+    border-left: 1px solid;
+}
+*/
+.language_category{
+    grid-area: category;
+    word-wrap: break-word; 
+    border: 1px solid;
+}
+.table_cell_option1{
+    border-right: 1px solid;
+}
+.table_cell_option2{
+    border-right: 1px solid;
+    border-left: 1px solid;
+}
+.table_cell_option3{
+    border-right: 1px solid;
+    border-left: 1px solid;
+}
+.table_cell_option4{
+    border-left: 1px solid;
+}
+.table_category_cell_content{
+    text-align: center;
+}
